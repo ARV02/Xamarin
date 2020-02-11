@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Practica1.MainPage">
+
+    <StackLayout>
+        <!-- Place new controls here -->
+        <Entry x:Name="nombre" Placeholder="Escribe el nombre" />
+        <Entry x:Name="sueldo" Placeholder="Escribe tu sueldo" />
+        <Entry x:Name="horas" Placeholder="Escribe cantidad horas" />
+        <Button x:Name="agregar" Text="Agregar" Clicked="agregar_Clicked" /> 
+        <Button x:Name="limpiar" Text="Limpiar" Clicked="limpiar_Clicked" />
+        <Button x:Name="buscar" Text="Buscar" Clicked="buscar_Clicked" />
+    </StackLayout>
+
+</ContentPage>
